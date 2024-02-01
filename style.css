@@ -1,0 +1,225 @@
+.width{
+    width: 24px;
+    margin-left: 15px;
+}
+.nav-item a{
+    color: black;
+    margin: 0px 10px;
+    font-size: 18px;
+    }
+.nav-item a:hover{
+    color: rgb(196, 101, 57);
+    border-bottom: solid 2px rgb(194, 111, 16);
+   }
+@media screen and (max-width: 991px) {
+  .right-nav-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position:absolute;
+    right:100px;
+    top: 7px;
+  }
+  }
+  .right-nav-icon a:hover{
+    color: black;
+    border-bottom: none;
+  }
+  .logo__mi  .logo__home{
+    transform: translateX(-110px);
+    
+  }
+  .logo__mi:hover  .logo__home{
+    transform: translateX(0px);
+    transition:ease-in-out 1s;
+  }
+  .carousel-caption{
+    right: 70%;
+    left: 10%;
+    text-align: left;
+    bottom: auto;
+    top: 35%;
+  }
+  .container-sub{
+    margin: 8px 20px;
+  }
+  
+  .c-i-caption{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+  .c-i-caption h3{
+     font-size: 28px;
+     color: white;
+  }
+  .c-i-caption h6 a{
+    color: white;
+    text-decoration: none;  
+  }
+  .c-i-caption h6 i{
+    color: white;
+  }
+  .c-i-caption h6 a:hover{
+    text-decoration: underline;
+  }
+  .c-i-caption-lap{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+    transform: translateX(5%);
+    color: white;
+  }
+  .c-i-caption-lap h6 a{
+    color: white;
+    text-decoration: none; 
+    padding-top: 50px; 
+  }
+  .c-i-caption-lap h6 i{
+    color: white;
+  }
+  
+  .c-i-caption-trim{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+    transform: translateX(10%); 
+  }
+  .trimmer{
+    color: black;
+  }
+  .buy a{
+    color: orange;
+    text-decoration: none;
+  }
+  .buy{
+    color: orange;
+  }
+  .content-bg{
+    background-color: rgb(246, 244, 247);
+  }
+  .anchor{
+    color:black ;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .anchor span:hover{
+    text-decoration: underline;
+  }
+  .box:hover{
+    box-shadow: 2px 2px 4px 8px rgb(173, 168, 168)
+  }
+.f-h{
+  color: white;
+  text-align: left;
+  font-size: 18px;
+ 
+}
+.f-h ul li{
+ line-height: 30px;
+  list-style: none;
+ }
+ .f-h ul li a{
+  color: rgb(114, 109, 109);
+  font-size: 14px;
+  text-decoration: none;
+ }
+ .f-h ul li a:hover{
+  color: white;
+  text-decoration: underline;
+ }
+ .email {
+  padding: 8px 100px 8px 12px;
+  font-size: 16px;
+  color: white;
+  
+ }
+.pos{
+  position: absolute;
+  left: auto;
+  right: 90px;
+  color: white;
+  padding-top: 8px;
+}
+.box1{
+  width: 90%;
+  background-color:rgb(26, 24, 24);
+  border: 1px solid white;
+ border-radius: 10px 10px 0px 0px;
+
+}
+.box2{
+  width: 90%;
+  background-color: rgb(26, 24, 24);
+  border: 1px solid white;
+ border-radius: 0px 0px 10px 10px;
+
+}
+.scan-p{
+   height: 64px;
+  padding: 5px;
+  width: 64px;
+}
+.scan{
+  color: rgb(114, 109, 109);
+  font-size: 14px;
+ }
+ .g-p a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  }
+ .play-store{
+  width: 30px;
+  height: 30px;
+ }
+ .f-h-c{
+  padding:  15px 0px;
+  background-color: rgb(26, 24, 24);
+  border-bottom: 15px rgb(163, 156, 156);
+  padding-bottom: 25px;
+ }
+ .line{
+ color: white;
+ margin: 0px 32px;
+ }
+ .line a{
+  color: white;
+  text-decoration: none;
+ }
+ .line a:hover{
+  text-decoration: underline;
+ }
+ .line-r{
+  position: absolute;
+  right: 0%;
+ }
+
+ 
+@media screen and (max-width: 768px){
+ .m1{
+  width: 50%;
+ }
+}
+@media screen and (max-width: 721px){
+  .m2{
+   width: 100%;
+   }
+  }
+ @media screen and (min-width: 721px){
+  .m3{
+   
+   display: flex;
+   flex-direction: column;
+  }
+  }
+  @media screen and (max-width: 721px){
+    .m4{
+     width: 100%;
+     gap: 10px;
+    }
+   }
